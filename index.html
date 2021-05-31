@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+
+  <body>
+    <header>
+      <div class="header-logo">
+        <a href="index.html">TECH</a>
+      </div>
+      <div class="header-right">
+        <!--aタグのリンク忘れずに！
+        z-index忘れずに-->
+        <a href="index.html">ホーム</a>
+        <a href="service.html">事業内容</a>
+        <a href="news.html">ニュース</a>
+        <a href="blog.html">社員ブログ</a>
+        <a href="company.html">会社概要</a>
+        <a href="recruit.html">採用情報</a>
+        <a href="contact.html">お問い合わせ</a>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="service.html">事業内容</a></li>
+          <li><a href="news.html">ニュース</a></li>
+          <li><a href="blog.html">社員ブログ</a></li>
+          <li><a href="company.html">会社概要</a></li>
+          <li><a href="recruit.html">採用情報</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="menu" id="menu">
+        <span class="menu__line--top"></span>
+        <span class="menu__line--middle"></span>
+        <span class="menu__line--bottom"></span>
+      </div>
+    </header>
+
+    <div class="main-top">
+      <img id="main-top-img" src="img/mv.png" alt="">
+      <div class="main-phara">
+        <h1>最新のテクノロジーで社会課<br id="ess">題を解決</h1>
+        <h3>Solving social issues with the latest technology</h3>
+      </div>
+    </div>
+
+    <div class="main-bottom">
+      <h2>株式会社TECHの想い</h2>
+      <h4>あらゆる産業において、新たなデジタル技術を使ってこれまでにないビジネスモデルを展開する新規参入者が登場し、ゲームチェンジが起ころうとしています。こうした中で、各企業は、競争力維持・強化のために、DXを迅速に進めていくことが求められています。しかし、DXにおいて投資コストは非常にかかります。株式会社TECHでは独自のオペレーションと人材教育により、他社よりも価格を抑えた開発を行います。</h4>
+    </div>
+
+    <div class="service">
+      <h3>サービス</h3>
+      <div class="service-img">
+        <div class="service-img1">
+          <div class="se-img">
+            <img src="img/service1.png" alt="">
+            <h4>IT人材育成事業</h4>
+            <p>これまでに培った教育手法を生かして、短期間で即戦力のIT人材を育成します。</p>
+          </div>
+          <div class="se-img">
+            <img src="img/service3.png" alt="">
+            <h4>ITコンサル事業</h4>
+            <p>経営戦略にIT戦略を策定し、システム開発の提案やシステムの最適化を通じて、企業の経営をサポートします。</p>
+          </div>
+        </div>
+        <div class="service-img2">
+          <div class="se-img">
+            <img src="img/service2.png" alt="">
+            <h4>コーチング事業</h4>
+            <p>目標達成を最短で実現するために、プロのコーチによるマンツーマンのサポートを実施します。</p>
+          </div>
+          <div class="se-img">
+            <img src="img/service4.png" alt="">
+            <h4>デジタルトランスフォーメーション事業</h4>
+            <p>人々の生活をよりよいものに変革するために様々なデジタル技術を活用し、革新的なソリューションやサービスを生み出します。</p>
+          </div>  
+        </div>
+      </div>
+      <div class="se-btn">
+        <a href="service.html">サービス一覧をみる</a>
+      </div>
+    </div>
+
+    <div class="news">
+      <div class="news-top">
+        <div class="news-title">
+          <h3>ニュース</h3>
+        </div>
+        <div class="news-btn">
+          <a href="news.html">ニュース一覧をみる</a>
+        </div>
+      </div>
+
+      <div class="news-text">
+        <a class="es_1" href="index.html"><small>2019/07/17</small>会社を創業しました.</a>
+        <a class="es_2" href="index.html"><small>2020/04/01</small>資金調達を行いました。</a>
+        <a class="es_3" href="index.html"><small>2020/10/01</small>東京新聞に掲載されました。</a>
+      </div>
+    </div>
+
+    <div class="blog">
+      <h3>社員ブログ</h3>
+      <div class="blog-content">
+        <div class="content">
+          <div class="content-img">
+            <a href="index.html"><img src="img/blog.png" alt=""></a>
+          </div>
+          <small>2019/07/17</small>
+          <h4>会社を創業した理由</h4>
+        </div>
+        <div class="content">
+          <div class="content-img">
+            <a href="index.html"><img src="img/blog.png" alt=""></a>
+          </div>
+          <small>2019/11/11</small>
+          <h4>ITエンジニアを育成する最強メゾット</h4>
+        </div>
+        <div class="content">
+          <div class="content-img">
+            <a href="index.html"><img src="img/blog.png" alt=""></a>
+          </div>
+          <small>2020/08/01</small>
+          <h4>コーチングによるモチベーション向上理論</h4>
+        </div>
+      </div>
+      <div class="blog-btn">
+        <a href="blog.html">サービス一覧をみる</a>
+      </div>
+    </div>
+
+    <div class="link-content">
+      <a class="link1" href="company.html">会社概要</a>
+      <a class="link2" href="recruit.html">採用情報</a>
+    </div>
+
+    <div class="inq">
+      <h3>お問い合わせ</h3>
+      <h6>お仕事のご依頼や採用に関してはお問い合わせにて承っております。</h6>
+      <div class="inq-btn">
+        <a href="contact.html">お問い合わせ</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-left">
+        <small>&copy; 2020 TECH inc.</small>        
+      </div>
+      <div class="footer-right">
+        <!--aタグのリンク忘れずに！
+        z-index忘れずに-->
+        <a href="index.html">ホーム</a>
+        <a href="service.html">事業内容</a>
+        <a href="news.html">ニュース</a>
+        <a href="blog.html">社員ブログ</a>
+        <a href="company.html">会社概要</a>
+        <a href="recruit.html">採用情報</a>
+        <a href="contact.html">お問い合わせ</a>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
