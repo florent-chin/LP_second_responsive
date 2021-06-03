@@ -111,7 +111,7 @@ header{
 }
 
 .main-top img{
-  height: 480px;
+  height: 95vh;
   width: 100%;
   object-fit: cover;
 }
@@ -139,6 +139,8 @@ header{
   background-color: black;
   height: 280px;
   width: 100%;
+  padding: 0 4vw;
+  box-sizing: border-box;
 }
 
 .main-bottom h2{
@@ -156,48 +158,48 @@ header{
 
 /*service*/
 .service{
-  margin-top: 80px;
+  margin: 80px 0;
+  width: 100%;
 }
 
+.service-content{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 7vw;
+}
+
+.service-content-img{
+  flex: auto;
+  width: 50%;
+}
+
+.service-content-img img{
+  width: 95%;
+  height: auto;
+  display: block;
+}
+
+.service-content-text h4{
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.service-content-text p{
+  line-height: 30px;
+  letter-spacing: 3px;
+  width: auto;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
 
 .service h3{
   text-align: center;
-  font-size: 30px;
-  margin-bottom: 30px;
+  font-size: 40px;
+  padding-bottom: 30px;
 }
 
-.service-img{
-  display: flex;
-}
 
-.service-img2{
-  text-align: right;
-}
 
-.se-img img{
-  height: 320px;
-  width: 48vw;
-  object-fit: cover;
-}
-
-.service h4{
-  font-size: 18px;
-  padding: 10px 0;
-}
-.service p{
-  font-size: 15px;
-  line-height: 25px;
-  letter-spacing: 2px;
-  padding-bottom: 20px;
-}
-.service-img2 h4{
-  text-align: left;
-  padding-left: 30px;
-}
-.service-img2 p{
-  text-align: left;
-  padding-left: 30px;
-}
 
 .es2{
   width: 48vw;
@@ -228,6 +230,7 @@ header{
 .news{
   background-color: rgb(32, 32, 32);
   height: 450px;
+  padding: 0 60px;
 }
 
 .news-top{
@@ -285,6 +288,10 @@ header{
   padding:0 2vw;
 }
 /*blog*/
+
+.blog{
+  margin: 0 4vw;
+}
 .blog h3{
   margin: 80px 0 40px;
   text-align: center;
@@ -294,13 +301,17 @@ header{
 .blog-content{
   display: flex;
 }
-.blog-content img{
-  width: 95%;
+
+.content-img img{
+  width: 94%;
+  height: auto;
+  margin: 0 10px;
 }
 
-.content-img{
-  text-align: center;
+.content{
+  margin: 0 auto;
 }
+
 .content-img:hover{
   opacity: 0.7;
   cursor: pointer;
@@ -313,7 +324,7 @@ header{
 }
 .content h4{
   padding-left: 10px;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .blog-btn{
@@ -458,7 +469,7 @@ header{
 /*service-bottom*/
 .service_bottom{
   border-bottom: 1px solid black;
-  margin-bottom: 80px;
+  margin: 0 4vw 80px;
 }
 
 .bottom_content{
@@ -511,12 +522,13 @@ header{
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 70px;
+  margin: 0 5vw;
 }
 .blog_img{
   margin: 0 auto;
 }
 .blog_img img{
-  width: 32vw;
+  width: 28vw;
   height: 200px;
 }
 
@@ -594,12 +606,12 @@ header{
 
 /*contact*/
 .contact{
-  margin: 0 6vw;
   height: 550px;
+  width: 100%;
 }
 
 .contact-content{
-  margin-bottom: 20px;
+  margin: 0 30px 20px;
 }
 .contact-content span{
   color: #c20323;
@@ -610,12 +622,12 @@ header{
   padding-bottom: 10px;
 }
 .contact-content input{
-  width: 100%;
   height: 25px;
+  width: 100%;
 }
 .contact-content textarea{
-  width: 100%;
   font-size: 15px;
+  width: 100%;
 }
 
 .contact-btn{
@@ -679,25 +691,12 @@ header{
     display: block;
   }
 
-  .service-img{
+  .service-content{
     flex-direction: column;
-    text-align: left;
-    margin: 0 30px;
-    
   }
-  .se-img img{
+
+  .service-content-img{
     width: 100%;
-    height: auto;
-  }
-  .service-img2{
-    flex-direction: column;
-    text-align: left;
-  }
-  .service-img2 h4{
-    padding:10px 0;
-  } 
-  .service-img2 p{
-    padding: 0;
   }
 
   .news{
